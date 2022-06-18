@@ -6,7 +6,20 @@
     <script src="src/index.js" type="module"></script>
 </head>
 <body>
-<div id="root"></div>
+<form class="login-form">
+    <input
+            type="text"
+            class="text-input login-form__username-input"
+    />
+    <div class="login-form__buttons">
+        <button class="login-form__submit button">
+            <span class="button__capture button__capture_red">CLICK ME</span>
+        </button>
+        <button class="button__active_disabled login-form__reset button">
+            RESET
+        </button>
+    </div>
+</form>
 <hr>
 </body>
 </html>
