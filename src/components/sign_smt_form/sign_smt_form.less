@@ -6,13 +6,20 @@
 @stand-height: 50px;
 @def-color: rgb(98, 111, 132);
 
-form{
+
+div.container_form{
   position: absolute;
   top:0;
   bottom: 0;
   left: 0;
   right: 0;
+  display: flex;
+}
+
+form{
   margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
   background-color: @bg-color;
   border-radius: @db-radius;
   padding: @db-radius;
@@ -21,9 +28,11 @@ form{
   flex-direction: column;
   justify-content: space-between;
   height: 80%;
+  //max-height: 700px;
   width: 40%;
   max-width: 400px;
   box-sizing: border-box;
+  overflow: auto;
 }
 
 form h2{
@@ -44,10 +53,10 @@ form button{
   cursor: pointer;
   border: none;
   font-size: 20px;
-  margin: 10px;
+  margin: 20px;
   align-self: center;
   width: 70%;
-  height: @stand-height;
+  min-height: @stand-height;
 }
 
 form button.prime{
@@ -62,7 +71,7 @@ form button.secundus{
   border-radius: @db-radius;
 }
 
-form label{
+label{
   margin-top: 15px;
   font-family: Inter, sans-serif;
   display: block;
@@ -71,7 +80,7 @@ form label{
   color: @dark-color;
 }
 
-form input{
+input{
   width: 80%;
   font-size: 20px;
   margin: 15px;

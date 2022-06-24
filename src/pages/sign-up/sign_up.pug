@@ -6,7 +6,8 @@ html(lang="en")
         link(href="../../components/sign_smt_form/sign_smt_form.css" rel="stylesheet")
     body
         include ../../components/button__back/button__back
-        form
+        //div(class="container_form")
+        form(class="marg")
             h2 Sign up
             div
                 div
@@ -15,7 +16,6 @@ html(lang="en")
                 div
                     label(for="second_name") полное имя
                     input(name="second_name", type="text", id="second_name" placeholder="full name")
-
                 div
                     label(for="login") логин
                     input(name="login", type="text", id="login" placeholder="login")

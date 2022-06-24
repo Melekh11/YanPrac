@@ -7,22 +7,24 @@
   </head>
   <body>
     <button class="button__back" type="button" onclick="location.href = 'index.html';">←</button>
-    <form>
-      <h2>Sign in</h2>
-      <div>
+    <div class="container_form">
+      <form>
+        <h2>Sign in</h2>
         <div>
-          <label for="login">логин</label>
-          <input name="login" type="text" id="login" placeholder="login here">
+          <div>
+            <label for="login">логин</label>
+            <input name="login" type="text" id="login" placeholder="login here">
+          </div>
+          <div>
+            <label for="pass">пароль</label>
+            <input name="password" type="password" id="pass" placeholder="password here">
+          </div>
         </div>
-        <div>
-          <label for="pass">пароль</label>
-          <input name="password" type="password" id="pass" placeholder="password here">
+        <div class="column-group">
+          <button class="prime">Enter</button>
+          <button class="secundus">Sign up</button>
         </div>
-      </div>
-      <div class="column-group">
-        <button class="prime">Enter</button>
-        <button class="secundus">Sign up</button>
-      </div>
-    </form>
+      </form>
+    </div>
   </body>
 </html>

@@ -6,15 +6,16 @@ html(lang="en")
         link(href="../../components/sign_smt_form/sign_smt_form.css" rel="stylesheet")
     body
         include ../../components/button__back/button__back
-        form
-            h2 Sign in
-            div
+        div(class="container_form")
+            form
+                h2 Sign in
                 div
-                    label(for="login") логин
-                    input(name="login", type="text", id="login", placeholder="login here")
-                div
-                    label(for="pass") пароль
-                    input(name="password", type="password", id="pass" placeholder="password here")
-            div(class="column-group")
-                button(class="prime") Enter
-                button(class="secundus") Sign up
+                    div
+                        label(for="login") логин
+                        input(name="login", type="text", id="login", placeholder="login here")
+                    div
+                        label(for="pass") пароль
+                        input(name="password", type="password", id="pass" placeholder="password here")
+                div(class="column-group")
+                    button(class="prime") Enter
+                    button(class="secundus") Sign up
