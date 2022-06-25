@@ -2,10 +2,9 @@
   "name": "test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "node_modules/.bin/parcel src/pages/main-page.html",
-    "build": "node_modules/.bin/parcel build index.hbs"
+    "start": "parcel src/pages/main-page/main-page.html --port 3000"
   },
   "keywords": [],
   "author": "",
@@ -21,5 +20,8 @@
     "pug": "^3.0.2",
     "pug-cli": "^1.0.0-alpha6",
     "suss": "^0.3.3"
+  },
+  "engines" : {
+    "node" : ">=12.0.0"
   }
 }

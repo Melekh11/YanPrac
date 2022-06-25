@@ -30,6 +30,7 @@ p {
   text-align: center;
 }
 a.blue {
+  cursor: pointer;
   text-decoration: none;
   color: #3369F3;
   font-size: 24px;
@@ -40,6 +41,7 @@ a.blue {
   text-align: center;
 }
 a.red {
+  cursor: pointer;
   text-decoration: none;
   color: red;
   font-size: 24px;
